@@ -1,5 +1,5 @@
 module.exports = function () {
-    Logger() {
+    function Logger() {
         this.isLogging = false;
         this.currentStage = null;
         this.currentLog = null;
